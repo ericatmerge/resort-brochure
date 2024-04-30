@@ -12,9 +12,9 @@ function App() {
 
   return (
     <>
-      <div>
-        <h1 className="text-3xl">Welcome to Serenity</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi turpis erat, aliquet ut felis quis, vehicula eleifend ante. Nulla in placerat velit. Vestibulum sodales tincidunt fermentum.</p>
+      <div className="flex flex-col mx-auto justify-center items-center text-center min-h-[600px] max-w-4xl">
+        <h1 className="text-[64px] font-bold uppercase font-heading mb-4">Welcome to Serenity</h1>
+        <p className="font-body text-[22px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi turpis erat, aliquet ut felis quis, vehicula eleifend ante. Nulla in placerat velit. Vestibulum sodales tincidunt fermentum.</p>
       </div>
       {images.map(image => (
         <motion.div
