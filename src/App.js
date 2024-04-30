@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg"
+import "./App.scss"
 
 function App() {
   return (
@@ -11,15 +11,15 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Future home of our Resort
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
